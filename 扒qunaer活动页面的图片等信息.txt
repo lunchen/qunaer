@@ -1,0 +1,9 @@
+var obj = [], arr = $(".channel-pro-panels"), arrLen = arr.length;
+for(var i = 0; i < arrLen; i++){obj[i] = {
+imgSrc : arr.eq(i).find(".p-img").find("img").attr("src"),
+name : arr.eq(i).find(".p-name").find("a").attr("title"),
+description : arr.eq(i).find(".p-slogan").text(),
+title : arr.eq(i).find(".p-promotions").text(),
+price : arr.eq(i).find(".p-price").find("span").text(),
+}}
+JSON.stringify({code : 0, data : obj, message : "success"});
