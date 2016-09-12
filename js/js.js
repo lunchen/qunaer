@@ -68,7 +68,7 @@ function titlego(){
 		scrollTo(0,810)
 	});
 	$(".guonei").find(".right").click(function(){
-		scrollTo(0,1367)
+		scrollTo(0,1370)
 	});
 	$(window).scroll(function(){
 		if(scrollY >= 810 && scrollY < 1950){
@@ -85,7 +85,7 @@ function titlego(){
 		scrollTo(0,2255)
 	});
 	$(".chujing").find(".right").click(function(){
-		scrollTo(0,2816)
+		scrollTo(0,2820)
 	});
 	$(window).scroll(function(){
 		if(scrollY >= 2255 && scrollY < 3416){
@@ -101,7 +101,7 @@ function titlego(){
 		scrollTo(0,3702)
 	});
 	$(".shuqi-hot").find(".right").click(function(){
-		scrollTo(0,4270)
+		scrollTo(0,4280)
 	});
 	$(window).scroll(function(){
 		if(scrollY >= 3702 && scrollY < 5116){
@@ -117,7 +117,7 @@ function titlego(){
 		scrollTo(0,6020)
 	});
 	$(".wanshui").find(".right").click(function(){
-		scrollTo(0,6840)
+		scrollTo(0,6890)
 	});
 	$(window).scroll(function(){
 		if(scrollY >= 6020 && scrollY < 7820){
