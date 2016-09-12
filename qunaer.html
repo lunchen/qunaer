@@ -243,8 +243,13 @@
 							<div class="item-tit">
 								<img src="<%=data[i].imgSrc%>" />
 								<div class="tag">
+								<%if(len != 24 && len != 8 && len != 40){%>
 									<div class="tag-hd">立享</div>
 									<div class="tag-bd"><%=data[i].cut%>折</div>
+								<%}else{%>
+									<div class="tag-hd">会员</div>
+									<div class="tag-bd">一口价</div>
+								<%}%>
 								</div>
 							</div>
 							<div class="item-cont">
